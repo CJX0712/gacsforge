@@ -1,0 +1,20 @@
+[project]
+name = "semiforge"
+version = "0.1.0"
+description = "SemiForge - 半监督学习系统：旗舰 GACS 图-树混合类平衡自训练"
+authors = [{ name = "晨星", email = "CJX0712@users.noreply.github.com" }]
+requires-python = ">=3.12"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-W ignore::UserWarning"
+
+[tool.ruff]
+line-length = 96
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]

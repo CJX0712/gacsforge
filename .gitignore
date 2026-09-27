@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+data_cache/
+models/
+*.pkl
+*.joblib
+.env
+*.key
+*.secret
+benchmark.local.json
